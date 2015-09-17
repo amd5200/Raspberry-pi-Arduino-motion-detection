@@ -7,3 +7,6 @@ raspberry pi 要安裝python-serial模組
 
 sudo raspi-config 
 Advanced options --->Serial --->選NO --->reboot
+
+
+https://www.youtube.com/watch?v=UAwqmSM35Ck
