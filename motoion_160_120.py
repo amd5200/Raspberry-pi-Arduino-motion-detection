@@ -8,7 +8,9 @@ import sys
 import serial
 import time
 
-arduino=serial.Serial('/dev/ttyUSB1',9600)     #set arduino serial port
+#arduino=serial.Serial('/dev/ttyS2',9600)      #banana pi
+arduino=serial.Serial('/dev/ttyAMA0',9600)    #raspberry pi
+#arduino=serial.Serial('/dev/ttyUSB1',9600)     #set arduino serial port
 #width = 160 #leave None for auto-detection
 #height = 120 #leave None for auto-detection
 width = 320 #leave None for auto-detection
